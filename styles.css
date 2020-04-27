@@ -1,0 +1,134 @@
+h1,h2 {
+  font-family: Poppins;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* title section */
+
+
+#title {
+  background-image:url(images/bg-hero-desktop.svg);
+  padding: 3% 5%;
+  background-color: hsl(193, 100%, 96%);
+}
+.try-it-free-btn {
+   border-radius: 84px;
+   border : solid 1px;
+}
+.mockup-img{
+  width: 100%;
+}
+.header{
+  padding: 3% 0%;
+}
+.title-content{
+  padding-top: 7%;
+}
+.welcome-msg-title{
+  font-size: 3rem;
+}
+.welcome-msg {
+  font-family: Open sans;
+}
+.get-started-btn {
+  background-color: hsl(322, 100%, 66%);
+  padding: 15px 60px;
+  border-radius: 84px;
+  margin: 3% 0%;
+}
+/* features section  */
+
+
+#features {
+  padding: 7% 5% 0%;
+}
+
+.feature-card {
+  margin: 3% 10%;
+  border-radius: 90px;
+}
+.feature-content{
+  padding: 10% 9%;
+}
+.feature-img {
+  width: 75%;
+  margin: 3% 10%;
+}
+.cfa-card {
+  text-align: center;
+  margin: 10% 25% 0%;
+  padding : 3%;
+  background-color: white;
+  position: relative;
+  top: 80px;
+  border-radius: 15px;
+
+}
+.cfa-btn {
+  margin: 3% 30%;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border-radius: 90px;
+  padding: 2% 4%;
+}
+
+/* footer */
+#footer {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+  padding: 10% 5% 3%;
+
+
+}
+.social-icon {
+  margin: 0 3%;
+  border: solid .5px;
+  border-radius: 100%;
+  padding: 2%;
+}
+.footer-logo {
+  color: grey;
+}
+.copyrights {
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+
+  body {
+    text-align: center;
+  }
+  #title {
+    background-image:url(images/bg-hero-mobile.svg);
+  }
+  .cfa-card {
+    text-align: center;
+    font-size: 12px;
+    margin: 10% 3% 0%;
+    padding : 12% 2%;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+  }
+  .cfa-card h2 {
+    font-size: 1.25rem;
+  }
+  .cfa-btn {
+    margin: 3% 20%;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border-radius: 90px;
+    padding: 2% 4%;
+  }
+  #footer {
+    text-align: left;
+    padding: 30% 5% 3%;
+  }
+  .social-icons {
+    text-align: center;
+  }
+  .copyrights{
+    text-align: center;
+    margin: 3% 0;
+  }
+}
